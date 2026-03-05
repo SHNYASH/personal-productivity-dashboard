@@ -1,0 +1,5 @@
+__pycache__/
+credentials.json
+last_run
+token.json
+.env
