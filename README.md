@@ -22,8 +22,14 @@ Load.py: Connects to the PostgreSQL database via SQLAlchemy and upserts data int
 Inside the database, the selected events data is combined with a separate dates table and displayed as a "productivity" view.
 This view is later imported into PowerBI, where limited data transformation happens, and new measures are created. The information
 is then displayed on 2 pages:
+
 Overview: Contains the main visuals for the entire time period of imported events with an option to narrow the time window by using a slider.
+
+<img src="Overview%20Page.png" width="600">
+
 Weekly: Contains visuals that display events information only for the current week, making it useful for week-on-week comparison.
+
+<img src="Weekly%20Page.png" width="600">
 
 ## **Setup Instructions**
     1. Clone the Repository
