@@ -26,11 +26,11 @@ Overview: Contains the main visuals for the entire time period of imported event
 Weekly: Contains visuals that display events information only for the current week, making it useful for week-on-week comparison.
 
 ## **Setup Instructions**
-    **1. Clone the Repository**
+    1. Clone the Repository
             git clone https://github.com/SHNYASH/personal-productivity-dashboard
-    **2. Install Dependencies**
+    2. Install Dependencies
             pip install -r requirements.txt
-    **3. Configuration**
+    3. Configuration
             Add your google cloud credentials file to the working folder to authorize google calendar API access.
             Create a .env file in the root directory and add your PostgreSQL credentials:
             DB_USER=your_user
@@ -38,11 +38,11 @@ Weekly: Contains visuals that display events information only for the current we
             DB_HOST=localhost
             DB_PORT=5432
             DB_NAME=your_db
-    **4. Database Setup** 
+    4. Database Setup 
             Setup the database schema using .sql files stored in the SQL folder. Note: Do not change the names of columns, views, or tables.
-    **5. Run the Pipeline**
+    5. Run the Pipeline
             python Run.py
-    **6. Dashboard Setup
+    6. Dashboard Setup
             Open the Personal Productivity Dashboard.pbix and connect PowerBI to your database.
 
  
